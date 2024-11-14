@@ -92,7 +92,7 @@ $productos = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <?php endforeach; ?>
     </table>
 </body>
-
+// el estilo lo pongo aca porque si no, no me funciona.
 <style> 
 
 body {
